@@ -1,0 +1,10 @@
+def united_sets(set1: set, set2: set) -> set:
+    return set1 | set2
+
+def check_if_set_contains(set1: set, set2: set) -> bool:
+    return set2.issubset(set1)
+
+if __name__ == "__main__":
+    print(united_sets({1, 2, 3}, {3, 4, 5}))
+    print(check_if_set_contains({1, 2, 3, 4, 5, 6, 7}, {3, 4, 5}))
+    print(check_if_set_contains({1, 2, 3, 4, 5, 6, 7}, {3, 4, 5, 8}))
