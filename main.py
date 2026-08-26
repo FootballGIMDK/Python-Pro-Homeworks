@@ -7,8 +7,7 @@ from tasks.task6_for_if import even_or_odd, left_only_even_from_list
 
 
 def main():
-    print("Homework 3:")
-    print("Task 1:")
+    print("Homework 3:\nTask 1:")
     str1 = input("Enter the first string: ")
     str2 = input("Enter the second string: ")
     str1_length = count_string_length(str1)
