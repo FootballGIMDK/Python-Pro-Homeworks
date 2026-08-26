@@ -1,15 +1,17 @@
 def square(number: int) -> int:
-    return number ** 2
+    """Function to square a number"""
+    return number**2
 
-def sum_numbers(num1: int | float, num2: int | float) -> int | float:
+
+def sum_numbers(num1: float, num2: float) -> float:
+    """Function to sum two numbers"""
     return num1 + num2
 
+
 def dividing_operations(num1: int, num2: int) -> tuple[int, int]:
-    #Comment just for clarification, use here if just cos I want to divide larger number to the smaller
-    if num1 >= num2:
-        return num1 // num2, num1 % num2
-    else:
-        return num2 // num1, num2 % num1
+    """Function to divide two numbers, always will divide larger number to smaller number"""
+    return (num1 // num2, num1 % num2) if num1 >= num2 else (num2 // num1, num2 % num1)
+
 
 if __name__ == "__main__":
     print(square(5))
