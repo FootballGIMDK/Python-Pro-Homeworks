@@ -1,0 +1,10 @@
+Products:
+Toshiba,Electronics,20000,10
+Apple,Electronics,80000,5
+Pirelli,Car,9000,60
+Nike,Sport,6000,12
+Adidas,Sport,5000,59
+
+Customers:
+Ihor Horobets,ihor.horobets@python.com
+Andriy Shevchenko, a.sheva@ffu.com
